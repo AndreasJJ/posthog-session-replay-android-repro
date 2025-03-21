@@ -10,6 +10,19 @@ export default function PagesLayout() {
           }}
       >
         <Stack.Screen name="(drawer)" />
+        <Stack.Screen
+            name="modals/inputs"
+            options={{
+              presentation: 'modal',
+              headerShown: true,
+              headerTitleAlign: 'center',
+              headerBackVisible: true,
+              headerBackButtonMenuEnabled: true,
+              headerBackButtonDisplayMode: "default",
+              headerTitle: "Inputs",
+              animation: 'slide_from_bottom'
+            }}
+        />
       </Stack>
   )
 }

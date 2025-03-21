@@ -11,7 +11,6 @@ export default function DrawerLayout() {
               width: '100%'
             }
           }}
-          useLegacyImplementation={false}
       />
   );
 }
