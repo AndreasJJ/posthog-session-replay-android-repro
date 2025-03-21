@@ -4,7 +4,7 @@ export const AnalyticsProvider: React.FC<React.PropsWithChildren> = ({ children 
   return (
       <PostHogProvider apiKey="" options={{
         host: 'https://eu.i.posthog.com',
-        defaultOptIn: false,
+        defaultOptIn: true,
         disableGeoip: true,
         persistence: 'memory',
         // check https://posthog.com/docs/session-replay/installation?tab=React+Native
