@@ -1,5 +1,5 @@
 {
-  "name": "jest-expo-router-repro",
+  "name": "posthog-android-repro",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
