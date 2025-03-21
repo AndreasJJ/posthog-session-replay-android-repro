@@ -30,7 +30,8 @@ module.exports = {
           imageWidth: 100
         }
       ],
-      "expo-router"
+      "expo-router",
+      "expo-localization"
     ],
     "experiments": {
       "typedRoutes": true
